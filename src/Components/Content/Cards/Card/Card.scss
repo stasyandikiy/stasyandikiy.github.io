@@ -1,0 +1,138 @@
+.wrapper{
+    position: relative;
+}
+.card{
+    background-color: #333348;
+    width: 420px;
+    height: 370px;
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 40px;
+    text-align: center;
+
+    button{
+        width: 248px;
+        height: 70px;
+        background: #52519D;
+        border-radius: 40px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: #EEEEEE;
+        border:none;
+        margin-top: 30px;
+        &:hover{
+            cursor: pointer;
+            opacity: .9;
+        }
+    }
+    span{
+        color: #EEEEEE;
+        font-family: Sora;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        display:block;
+    }
+}
+.cardChange{
+    background-color: #333348;
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 40px;
+    text-align: center;
+    width: 270px;
+    height: 265px;
+    padding: 0px 17px 15px 17px;
+    button{
+        width: 196px;
+        height: 55px;
+        font-size: 18px;
+        background: #52519D;
+        border-radius: 40px;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        color: #EEEEEE;
+        border:none;
+        margin-top: 30px;
+        &:hover{
+            cursor: pointer;
+            opacity: .9;
+        }
+    }
+    span{
+        color: #EEEEEE;
+        font-family: Sora;
+        font-weight: 400;
+        line-height: 30px;
+        display:block;
+        font-size: 18px;
+    }
+
+}
+
+.blockInfo{
+    margin: 75px auto 0 auto;
+}
+.blockInfoChange{
+    margin: 45px auto 0 auto;
+}
+
+
+.titleHide{
+    display: none;
+}
+.title{
+    width: 870px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 800px;
+    border-radius: 40px;
+    background: #333348;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blockTitle{
+    margin: 108px 150px;
+    width: 570px;
+    >div{
+        color:white;
+        font-family: Sora;
+        letter-spacing: 0em;
+        text-align: left;
+        border-bottom: 1px solid #4C4C6A;
+
+        h5{
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 15px;
+            margin: 30px 0;
+        }
+        p{
+            position: relative;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 23px;
+        }
+    }
+}
+
+.btnSort{
+    background-color: white;
+    padding: 8px 20px;
+    height: 40px;
+    border-radius: 10px;
+    &:hover{
+        cursor: pointer;
+        opacity: .9;
+    }
+}
